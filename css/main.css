@@ -1,0 +1,51 @@
+:root {
+    --main-Color: #a67ecf;
+}
+
+/* Start Nav  */
+.navbar-brand,
+.navbar-nav .nav-link.active,
+.nav-link:hover{
+    color: var(--main-Color);
+}
+.nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* End Nav  */
+/* Start Carousel  */
+img.d-block {
+    height: 42em;
+}
+/* End Carousel  */
+/* start about section  */
+section.about h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--main-Color);
+}
+section.about p {
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 5%;
+}
+section.about img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+section.about div.img {
+    background-image: url("../imgs/download.jpg");
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+section.about div.img p {
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+}
+/* end about section  */
